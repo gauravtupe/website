@@ -1,0 +1,237 @@
+body {
+    font-family:"Montserrat-Black 900", sans-serif;
+}
+
+.wrapper {
+    display:flex;
+}
+
+/* Sidebar Start */
+
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+
+
+
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #D1D1D1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    /* z-index: 10; */
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+
+
+/*   Sidebar end    */
+
+.br{
+    padding-left: 4rem;
+    font-size:3rem;
+}
+.nv-col{
+    padding-right: 2rem;
+}
+.bt-dn{
+    margin: 1rem;
+}
+
+#title{
+    background-color: azure;
+    text-align: left;
+}
+
+.downloads{
+    padding-bottom: 10%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-family: "Montserrat-Black 900", sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    color: rgb(235, 191, 133); /*#f5981f   #ffd06a  rgb(235, 191, 133)*/
+}
+
+.container-fluid{
+    padding: 12% 2% 0px;
+}
+.dn-btn{
+    margin-top: 4%;
+}
+
+.tit{
+    position: relative;
+    z-index: 1;
+}
+.img{
+    /* transform: rotate(11deg); */
+    position: absolute;
+    /* right: 11rem;
+    top: 11rem; */
+}
+
+h3 {
+    font-family: "Montserrat-Black 900", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+p {
+    color: #8f8f8f;
+}
+
+/* features */
+#features{
+    padding: 5% 11% 7%;
+    position:relative;
+    background-color: azure;
+}
+
+.feature {
+    padding: 5%;
+}
+.icons{
+    color: #6e6969;
+    margin-bottom: 1rem;
+}
+.icons:hover{
+    color: rgb(155, 152, 143);
+}
+
+/* testimonials */
+
+#testimonials{
+    background-color: #555151;/*#ef8172  #ebe0c8*/
+    padding-bottom: 6rem;
+}
+
+h2{
+    font-family: 'Montserrat-Black 900', sans-serif;
+    padding: 2% 20% 0%;
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h5{
+    font-family: 'Montserrat-Black 900', sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+.testi-img{
+    border-radius: 100%;
+    width: 7%;
+    margin: 21px;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 78px 21px 48px;
+}
+#press{
+    background-color: #ebe0c8;
+    padding-bottom: 3%;
+}
+
+/* Pricing */
+
+#pricing{
+    padding:44px 80px 100px;
+}
+
+.pricing-column {
+    padding: 3% 1%;
+}
+.h2-pricing{
+    color: black;
+}
+
+@media screen and (max-width: 1113px){
+    .img{
+        /* position:static; */
+        /* transform: rotate(0); */
+    }
+}
+
+/* Call to Action */
+
+#cta{
+    background-color: #555151;
+    padding: 7%;
+}
+.cta-h3{
+    font-family: "Montserrat-Black 900", sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 1% 11%;
+}
+
+/* footer */
+
+#footer{
+    background-color: azure;
+    padding: 3% 1% 3% 1% ;
+}
+.soi{
+    margin: 1rem;
+}

@@ -1,0 +1,102 @@
+ 
+body{
+    background-color:#555151; /*#406882*/
+}
+
+
+/* Side Bar */
+
+.side-navbar {
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #100901;
+    transition: 0.5s;
+  }
+  .nav-link:active,
+  .nav-link:focus,
+  .nav-link:hover {
+    background-color: #ffffff26;
+  }
+  .my-container {
+    transition: 0.4s;
+  }
+  .active-nav {
+    margin-left: 0;
+  }
+  /* for main section */
+  .active-cont {
+    margin-left: 180px;
+  }
+  #menu-btn {
+    background-color: #100901;
+    color: #fff;
+    margin-left: -62px;
+  }
+
+
+/* Side Bar End */
+
+.navbar{
+    z-index: -1;
+}
+
+.main-after-body {
+    margin: 2% 30% 2%;
+    background-color:white;
+}
+
+h2{
+    text-align: center;
+    margin-bottom:3rem;
+    margin-top:0.5rem;
+}
+
+.rgstr{
+    /* margin-left: 50%; */
+    /* width: auto;
+    line-height:2;
+    height:auto; */
+    padding: 1rem 2rem 0rem;
+}
+
+.e-in{
+    margin:0% 0rem 3%;
+}
+
+.ch-bt{
+    /* text-align: center; */
+    margin-left:  2rem;
+}
+
+.btn{
+    margin: 2% 2rem 2%;   
+}
+
+.socio{
+    margin:2% 2rem 3%;
+    width: 10%;
+}
+
+.l-btn{
+    margin: 2% 2rem 3%;
+}
+
+hr{
+    border-color: rgba(177, 190, 116, 0.603);    /*rgba(177, 190, 116, 0.603)*/
+    /* border-style:solid;
+    border-width: 7%;
+    border-radius: 2em; */
+    width:88%;
+    margin: 0 auto;
+}
+
+p{
+    text-align:center;
+    margin-bottom: 1rem;
+}
+
+input{
+    border-radius: 15px;
+}
